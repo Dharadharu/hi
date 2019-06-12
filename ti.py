@@ -1,0 +1,11 @@
+h1,m1=list(map(int,input().split()))
+h2,m2=list(map(int,input().split()))
+s=(h1*60)+m1
+t=(h2*60)+m2
+if(s>t):
+    h3=(s-t)//60
+    m3=(s-t)%60
+else:
+    h3=(t-s)//60
+    m3=(t-s)%60
+print(h3,m3)
