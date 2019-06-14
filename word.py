@@ -1,2 +1,2 @@
-n=input().split()
-print(len(n))
+wor=input().split()
+print(len(wor))
