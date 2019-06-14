@@ -1,3 +1,3 @@
-n=int(input())
-a=list(map(int,input().split()))
-print(sum(a)//n)
+b=int(input())
+c=list(map(int,input().split()))
+print(sum(c)//b)
