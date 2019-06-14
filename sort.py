@@ -1,4 +1,4 @@
-n=int(input())
-a=list(map(int,input().split()))
-a.sort()
-print(*a)
+i=int(input())
+h=list(map(int,input().split()))
+h.sort()
+print(*h)
