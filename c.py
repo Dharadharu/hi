@@ -1,2 +1,2 @@
-c=input()
-print(len(c))
+co=input()
+print(len(co))
